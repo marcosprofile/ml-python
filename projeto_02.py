@@ -1,3 +1,5 @@
+""" Sistema de Cadastro de Alunos"""
+
 # Parte 1: Cadastro de Usuário
 # Crie as seguintes variáveis para o usuário:
 # - nome = "João Silva"
@@ -6,6 +8,7 @@
 # - tem_carteira_biblioteca = True
 # - tem_multa_pendente = False
 # Imprima os dados formatados
+
 
 NOME = "João Silva"
 IDADE = 25
@@ -29,7 +32,9 @@ Multa Pendente: {TEM_MULTA_PENDENTE}
 
 print(CADASTRO_USUARIO)
 
+
 ##########################################################################
+
 
 # Parte 2: Validação de Elegibilidade
 # Verifique se o usuário pode usar a biblioteca:
@@ -37,7 +42,7 @@ print(CADASTRO_USUARIO)
 # - Deve ter carteira da biblioteca
 # - Não pode ter multas pendentes
 # Se elegível, verifique o tipo (estudante tem 15 dias, regular tem 10 dias)
-# Escreva seu código aqui
+
 
 elegibilidade = False
 tempo_com_livro = 0
@@ -68,7 +73,9 @@ Nome: {NOME}
 
 print(VALIDACAO_DE_ELEGIBILIDADE)
 
+
 ##########################################################################
+
 
 # Parte 3: Sistema de Empréstimo
 # Crie variáveis para o empréstimo:
@@ -78,7 +85,7 @@ print(VALIDACAO_DE_ELEGIBILIDADE)
 # - prazo_estudante = 15
 # Determine o prazo baseado no tipo de usuário
 # Calcule se está em atraso ou quantos dias restam
-# Escreva seu código aqui
+
 
 NOME_LIVRO = "Python para Iniciantes"
 DIAS_EMPRESTIMO = 12
@@ -123,7 +130,9 @@ Você pode usar o livro \"{NOME_LIVRO}\" por {DIAS_RESTANTES} dias.
 
 print(RELATORIO_DE_EMPRESTIMO)
 
+
 ##########################################################################
+
 
 # Parte 5: Sistema de Renovação
 # Crie variáveis: numero_renovacoes = 1, tem_reserva = False
@@ -133,7 +142,6 @@ print(RELATORIO_DE_EMPRESTIMO)
 # - Não pode ter reserva
 # - Não pode ter multa pendente
 # Se pode renovar, calcule o novo prazo
-# Escreva seu código aqui
 
 
 # Sistema de Renovação
@@ -180,7 +188,9 @@ else:
 
 print("=" * 60)
 
+
 ##########################################################################
+
 
 # Parte 6: Relatório Final
 # Crie um relatório completo exibindo:
@@ -190,7 +200,6 @@ print("=" * 60)
 # - Valor da multa (se houver)
 # - Status de renovação
 # Use formatação para deixar o relatório organizado
-# Escreva seu código aqui
 
 
 # Gerar Relatório Final

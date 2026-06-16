@@ -1,21 +1,14 @@
-# ============================================
-# DESAFIO: Sistema de Gestão de Loja
-# ============================================
+"""DESAFIO: Sistema de Gestão de Loja"""
+
 
 # 1. Crie dados do cliente:
 #    - nome, idade, e_cliente_vip, tem_cadastro
-
 # 2. Crie dados da compra:
 #    - valor_compra, distancia
-
 # 3. Valide o cliente (idade >= 18, tem cadastro)
-
 # 4. Calcule desconto baseado nas regras especificadas
-
 # 5. Calcule frete baseado na distância
-
 # 6. Calcule o valor final (valor - desconto + frete)
-
 # 7. Gere um relatório completo e organizado
 
 

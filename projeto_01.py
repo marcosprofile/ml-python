@@ -19,33 +19,31 @@ Matrícula: {MATRICULA}
 
 print(CADASTRO_ALUNO)
 
+
 ##########################################################################
+
 
 # Validação do Email
 # Verifique se o email:
 # - contém "@"
 # - não tem espaços
 # - tem pelo menos 5 caracteres
-
 EMAIL_VALIDO = ("@" in EMAIL) and (len(EMAIL) > 5) and (' ' not in EMAIL)
 
 # Validação da Idade
 # Verifique se a idade é maior que 0 e menor que 120
-
 IDADE_VALIDA = (IDADE > 0) and (IDADE < 120)
 
 # Validação do Nome
 # Verifique se o nome não está vazio (após remover espaços)
-
 NOME_VALIDO = len(NOME.strip()) > 0
 
 # Validação geral
 # Combine todas as validações usando operadores lógicos
-
 DADOS_VALIDOS = EMAIL_VALIDO and IDADE_VALIDA and NOME_VALIDO
 
 # Imprima os resultados das validações
-# Escreva seu código aqui
+
 
 VALIDACAO_DE_DADOS = f"""
 {'=' * 60}
@@ -61,7 +59,9 @@ Dados são validos? {DADOS_VALIDOS}
 
 print(VALIDACAO_DE_DADOS)
 
+
 ##########################################################################
+
 
 # Conversão e Cálculo de notas
 # Converter notas de texto para float
@@ -76,7 +76,8 @@ soma = nota01 + nota02 + nota03
 media = soma / 3
 
 # Imprima um cabeçalho "CÁLCULO DE NOTAS" e exiba as notas e a média
-# Escreva seu código aqui
+
+
 CALCULO_DE_NOTAS = f"""
 {'=' * 60}
 {'CÁLCULO DE NOTAS':^60}
@@ -92,12 +93,13 @@ Média: {media}
 
 print(CALCULO_DE_NOTAS)
 
+
 ##########################################################################
+
 
 # Verificar aprovação
 # Defina a nota mínima como 7.0
 # Verifique se foi aprovado (média >= nota_minima)
-
 NOTA_MINIMA = 7
 aluno_aprovado = media >= NOTA_MINIMA
 
@@ -109,7 +111,8 @@ em_recuperacao = media >= 5 and media <= 6.9
 reprovado = media < 5
 
 # Imprima um cabeçalho "VERIFICAÇÃO DE APROVAÇÃO" e exiba os resultados
-# Escreva seu código aqui
+
+
 VERIFICACAO_DE_APROVACAO = f"""
 {'=' * 60}
 {'VERIFICAÇÃO DE APROVAÇÃO':^60}
@@ -122,7 +125,9 @@ Aluno reprovado? {reprovado}
 
 print(VERIFICACAO_DE_APROVACAO)
 
+
 ##########################################################################
+
 
 # Limpar e formatar o nome
 # Use strip() para remover espaços extras e title() para capitalizar
@@ -152,7 +157,9 @@ Email: {EMAIL_FORMATADO}
 """
 print(FORMATACAO_DE_DADOS)
 
+
 ##########################################################################
+
 
 # Gerar relatório formatado
 # Calcule os pontos necessários para aprovação (se não aprovado)
@@ -162,7 +169,7 @@ print(FORMATACAO_DE_DADOS)
 #   - Notas e média
 #   - Resultado (aprovado, recuperação, reprovado)
 #   - Pontos necessários
-# Escreva seu código aqui
+
 
 pontos_necessarios = NOTA_MINIMA - media
 

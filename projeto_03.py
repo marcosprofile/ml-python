@@ -29,7 +29,7 @@ print(TEXTO)
 # # calcule o próximo termo como fibonacci[i-1] + fibonacci[i-2]
 # Use append() para adicionar cada termo à lista
 # Após o laço, use outro laço for para exibir a sequência completa
-# Escreva seu código aqui
+
 
 fibonacci = [0, 1]
 
@@ -39,7 +39,9 @@ for valor in range(2, LIMITE_TERMOS):
 
 print(f"Sequência de Fibonacci com laço For:   {fibonacci}")
 
+
 ###############################################################################
+
 
 # Parte 3: Gerar sequência usando while até atingir um valor limite
 # Crie uma lista fibonacci_while = [0, 1] e indice = 2
@@ -48,7 +50,7 @@ print(f"Sequência de Fibonacci com laço For:   {fibonacci}")
 # Se o próximo termo ultrapassar LIMITE_VALOR, use break para parar
 # Caso contrário, adicione o termo à lista e incremente o índice
 # Após o laço, use um laço for para exibir a sequência completa
-# Escreva seu código aqui
+
 
 fibonacci_while = [0, 1]
 indice = 2
