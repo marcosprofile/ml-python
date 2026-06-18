@@ -161,14 +161,3 @@ for linha_texto in linhas:
 with open("relatorio_vendas.txt", "w", encoding="utf-8") as arquivo:
     arquivo.write(TEXTO_RELATORIO)
 print("Relatório salvo em: relatorio_vendas.txt")
-
-###############################################################################
-
-# Resumo do Projeto
-
-# Apliquei:
-# - leitura de CSV (csv.DictReader)
-# - listas/dicionários para organizar e agrupar
-# - compreensões de listas
-# - geração e escrita de relatório .txt
-# - validação de dados
