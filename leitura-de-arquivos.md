@@ -90,8 +90,6 @@ with open("saida.csv", "w", encoding="utf-8", newline="") as f:
     writer.writerows(dados)
 ```
 
-<br>
-
 ### Boas Práticas
 - Sempre use with (fecha arquivo automaticamente)
 - Sempre defina encoding="utf-8"

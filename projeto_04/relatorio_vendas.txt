@@ -1,0 +1,30 @@
+============================================================
+RELATÓRIO DE VENDAS
+============================================================
+
+ESTATÍSTICAS GERAIS
+------------------------------------------------------------
+Total de registros: 8
+Total de unidades: 133
+Valor total: R$ 6,300.00
+Valor médio: R$ 6,293.75
+
+DESTAQUES
+------------------------------------------------------------
+Produto com maior quantidade: SSD (30 unidades)
+Produto com maior faturamento: Notebook (R$ 12,500.00)
+
+DETALHAMENTO POR PRODUTO (por faturamento)
+------
+Notebook: 5 unidades – R$ 12,500.00
+SSD: 30 unidades – R$ 12,000.00
+Headset: 25 unidades – R$ 7,500.00
+Monitor: 8 unidades – R$ 6,400.00
+RAM: 18 unidades – R$ 6,300.00
+Webcam: 12 unidades – R$ 2,400.00
+Teclado: 15 unidades – R$ 2,250.00
+Mouse: 20 unidades – R$ 1,000.00
+
+============================================================
+Fim do relatório
+============================================================
